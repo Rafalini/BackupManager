@@ -1,0 +1,11 @@
+## Compress directory and save .zip to target_dir:
+
+./backupManager.sh ./target/ ./dir2/ ./target2
+
+## Compress directory and send .zip to target host: (in this example localhost)
+
+./backupManager.sh ./target/ ./dir2/ ./target2
+
+## Compress directory and send .zip to remote host:
+
+./backupManager.sh ./target/ ./dir2/ root@192.168.1.10:/home/rav/backup/
